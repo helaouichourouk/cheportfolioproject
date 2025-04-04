@@ -4,6 +4,7 @@ import {
   SiPrisma,
   SiNextdotjs,
   SiFlask,
+  SiRevue
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -19,6 +20,7 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import vueSvg from "@/public/icons/vue.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
@@ -61,6 +63,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Typescript",
         icon: TypescriptSvg,
       },
+      {
+        name: "Python",
+        icon: PythonSvg,
+      },
     ],
   },
   {
@@ -75,10 +81,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
         name: "Redux",
         icon: ReduxSvg,
       },
@@ -89,7 +91,12 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MUI",
         icon: MuiSvg,
+      },
+      {
+        name: "VUE",
+        icon: vueSvg,
       }
+
     ],
   },
   {
@@ -103,9 +110,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Express",
         icon: SiExpress,
       },
+
       {
-        name: "Socket.io",
-        icon: SiSocketdotio,
+        name: "Flask",
+        icon: SiFlask,
       }
     ],
   },
@@ -119,10 +127,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Postgress",
         icon: PostgressSvg,
-      },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
       },
     ],
   },
