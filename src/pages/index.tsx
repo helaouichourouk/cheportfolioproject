@@ -15,14 +15,14 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="CHOUROUK HELAOUI| Web Development Engineer at Docetis Sàrl "
-        description="Explore the professional portfolio of Chourouk Helaoui, a skilled Web Development Engineer at Docetis Sàrl  with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="CHOUROUK HELAOUI| Full Stack JavaScript Software Engineer  Portfolio"
+        description="Explore the professional portfolio of Chourouk Helaoui, a skilled Full Stack JavaScript Software Engineer with 6+ years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Chourouk Helaoui - Web Development Engineer at Docetis Sàrl  Portfolio",
+          title: "Chourouk Helaoui - Full Stack JavaScript Software Engineer Portfolio",
           description:
-            "Dive into the world of web development with Chourouk Helaoui. Discover a Web Development Engineer at Docetis Sàrl  with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Chourouk Helaoui. Discover a Full Stack JavaScript Software Engineer with 6+ years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

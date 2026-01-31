@@ -8,15 +8,15 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Chourouk Helaoui - Web Development Engineer at Docetis Sàrl  Portfolio"
-        description="Explore a collection of projects by Chourouk Helaoui, a seasoned Web Development Engineer at Docetis Sàrl . From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Chourouk Helaoui - Full Stack JavaScript Software Engineer Portfolio"
+        description="Explore a collection of projects by Chourouk Helaoui, a seasoned Full Stack JavaScript Software Engineer with 6+ years of experience. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
           title:
-            "Discover Projects by Chourouk Helaoui - Web Development Engineer at Docetis Sàrl ",
+            "Discover Projects by Chourouk Helaoui - Full Stack JavaScript Software Engineer",
           description:
-            "Explore a showcase of projects crafted by Chourouk Helaoui, a Web Development Engineer at Docetis Sàrl . Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Chourouk Helaoui, a Full Stack JavaScript Software Engineer with 6+ years of experience. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

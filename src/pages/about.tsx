@@ -10,14 +10,14 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Chourouk Helaoui | Web Development Engineer at Docetis Sàrl "
-        description="Learn more about Chourouk Helaoui, a dedicated Web Development Engineer at Docetis Sàrl  with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Chourouk Helaoui | Full Stack JavaScript Software Engineer "
+        description="Learn more about Chourouk Helaoui, a dedicated Full Stack JavaScript Software Engineer with 6+ years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Chourouk Helaoui - Web Development Engineer at Docetis Sàrl ",
+          title: "Learn About Chourouk Helaoui - Full Stack JavaScript Software Engineer",
           description:
-            "Dive into the story of Chourouk Helaoui, a Web Development Engineer at Docetis Sàrl . Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Chourouk Helaoui, a  Full Stack JavaScript Software Engineer with 6+ years of experience. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
