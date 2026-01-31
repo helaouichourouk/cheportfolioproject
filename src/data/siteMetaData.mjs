@@ -6,7 +6,7 @@ export const siteMetadata = {
   language: "en-us",
   theme: "light",
   siteName: "Chourouk Helaoui portfolio",
-  siteUrl: "https://chouroukhelaoui.me",
+  siteUrl: "https://cheportfolioproject.vercel.app",
   siteRepo: "https://github.com/helaouichourouk",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
