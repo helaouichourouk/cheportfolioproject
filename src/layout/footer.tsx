@@ -18,12 +18,14 @@ export default function Footer() {
         >
           <span>chourouk.helaoui2@gmail.com</span>
         </a>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <ContactButton />
-        </div>
+        </div> */}
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2024 Chourouk Helaoui</span>
+        <span className="text-foreground">
+          ©{new Date().getFullYear()} Chourouk Helaoui
+        </span>
         <div className="flex gap-8">
           <a
             href={siteMetadata.github}

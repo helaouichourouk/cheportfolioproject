@@ -42,17 +42,18 @@ export default function LandingHero() {
                 CHOUROUK HELAOUI
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Web Development Engineer at Docetis Sàrl
+                Full Stack JavaScript Software Engineer
               </span>
             </FadeUp>
-            <FadeUp key="description" duration={0.6} delay={0.2}>
+            {/* <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
-                <span className="text-xl text-accent sm:text-3xl">Hi</span>,
-                I&apos;m
-                <span className="text-accent"> Chourouk </span> , I turn
-                vision into reality.
+                <span className="text-xl text-accent sm:text-3xl">Hi</span>, I’m
+                <span className="text-accent"> Chourouk </span> — transforming vision into
+                powerful digital experiences for <span className="text-accent">6+</span> years
+                with React, Next.js, Node.js, and AI.
               </div>
-            </FadeUp>
+            </FadeUp> */}
+
           </AnimatePresence>
         </div>
       </div>

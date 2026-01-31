@@ -17,5 +17,5 @@ export const siteMetadata = {
   twitter: "https://x.com/ChouroukHelaoui",
   linkedin: "https://www.linkedin.com/in/chourouk-helaoui-268a98a9/",
   locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+  googleSiteVerification: "hw3J78EsSP6d6jXhgOcFXTMZAEij6wGwA_vxSCBkTcA",
 };
